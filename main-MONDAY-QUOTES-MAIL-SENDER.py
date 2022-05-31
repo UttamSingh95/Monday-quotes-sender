@@ -21,8 +21,8 @@ with open("quotes.txt") as data_file:
 
 # step 4 use smtplib to send the email to yourself
 
-my_gmail = "us2313s14@gmail.com"
-password = "Abcd1234$"
+my_gmail = "u******14@gmail.com"
+password = "A********$"
 
 if day_number == 2:
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
